@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import UseEffectBasi from "./Component/useEffect-basi";
+import CleanUp from "./Component/useEffect-cleanup";
+import FetchComponent from "./Component/useEffect-fetch-data";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UseEffectBasi />
+      <CleanUp />
+      <FetchComponent />
     </div>
   );
 }
